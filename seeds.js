@@ -4,7 +4,7 @@ var Comment = require("./models/comment");
 var data = [
     { 
         name: "Cloud's Rest",
-        image : "https://photosforclass.com/download/pixabay-1845719?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2F57e8d1464d53a514f6da8c7dda793f7f1636dfe2564c704c73277bd5944dc35f_960.jpg&user=Pexels"
+        image : "https://photosforclass.com/download/pixabay-1851092?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2F57e8d0424a5bae14f6da8c7dda793f7f1636dfe2564c704c73277cdd9749c25a_960.jpg&user=Pexels"
     },
     { 
         name: "Beach",
