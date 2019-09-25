@@ -4,22 +4,24 @@ var Comment = require("./models/comment");
 var data = [
     { 
         name: "Cloud's Rest",
-        image : "https://photosforclass.com/download/pixabay-1851092?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2F57e8d0424a5bae14f6da8c7dda793f7f1636dfe2564c704c73277cdd9749c25a_960.jpg&user=Pexels"
+        image : "https://photosforclass.com/download/pixabay-1851092?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2F57e8d0424a5bae14f6da8c7dda793f7f1636dfe2564c704c73277cdd9749c25a_960.jpg&user=Pexels",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
     },
     { 
         name: "Beach",
         image : "https://cdn.pixabay.com/photo/2015/10/12/14/57/campfire-984020_960_720.jpg",
-        description: "Beach Testt Beach Testt Beach Testt"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
     },
     {
         name: "Peace Car",
         image: "https://cdn.pixabay.com/photo/2013/07/13/11/36/volkswagen-158463_960_720.png",
-        description: "Test test test testtest testtest testtest testtest test  "
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
     },
     {
         name: "Mountain Hills",
         image: "https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_960_720.jpg",
-        description: "test testtest test test testtest testtest test "
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
     }
 ]
 function seedDb(){

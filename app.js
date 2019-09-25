@@ -9,9 +9,9 @@ var express = require("express"),
     
 mongoose.connect("mongodb://localhost/yelp_camp_v3",{ useNewUrlParser: true });
 app.use(bodyParser.urlencoded({extended:true}));
-app.set("view engine","ejs")
-
-// seedDb(); // uncomment if want to save campground and comment
+app.set("view engine","ejs");
+app.use(express.static(__dirname+"/public"));
+//seedDb(); // uncomment if want to save campground and comment
 
 /*
  Campground.create(
